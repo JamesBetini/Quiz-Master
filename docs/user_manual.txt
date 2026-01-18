@@ -1,0 +1,38 @@
+QUIZ MASTER - USER MANUAL
+=========================
+
+Welcome to Quiz Master, your comprehensive examination system!
+
+GETTING STARTED
+---------------
+1. Ensure you have Python 3.8+ installed on your system
+2. Install dependencies: pip install -r requirements.txt
+3. Run the application: python main.py
+
+HOW TO USE
+----------
+1. Launch the app and enter your name
+2. Click "Start Quiz" to begin
+3. Answer questions by selecting A, B, C, or D
+4. Use navigation buttons to move between questions
+5. Monitor the timer at the top of the screen
+6. Quiz auto-submits when time runs out
+7. View your results and performance chart
+8. Results are automatically saved to data/results.csv
+
+FEATURES
+--------
+- 10-minute countdown timer
+- Multiple-choice questions
+- Real-time score calculation
+- Pass/fail determination (50% threshold)
+- Performance visualization
+- Result persistence
+
+TROUBLESHOOTING
+---------------
+- If GUI doesn't load: Ensure tkinter is available (usually built-in with Python)
+- If data doesn't load: Check data/sample_quiz.csv exists and is properly formatted
+- If charts don't display: Ensure matplotlib is installed correctly
+
+For technical support, please check the README.md or open a GitHub issue.
